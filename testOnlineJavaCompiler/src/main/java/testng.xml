@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--testng tests-->
+
+<suite name="TestAll">
+
+    	<test name="Start">
+		<classes>
+			<class name="com.mycompany.testonlinejavacompiler.Util" />
+		</classes>
+	</test>
+
+	<test name="TestTerminal">
+		<classes>
+			<class name="com.mycompany.testonlinejavacompiler.TestTerminal" />
+		</classes>
+	</test>
+
+	<test name="TestUI">
+		<classes>
+			<class name="com.mycompany.testonlinejavacompiler.TestUI" />
+		</classes>
+	</test>
+
+</suite>
